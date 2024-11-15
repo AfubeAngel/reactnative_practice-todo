@@ -3,9 +3,8 @@ import React from "react";
 
 export default function Header() {
   return (
-    <View style={styles.container}
-    >
-        <Text style={styles.header}>My Todos</Text>
+    <View style={styles.container}>
+      <Text style={styles.header}>My Todos</Text>
     </View>
   );
 
@@ -15,7 +14,7 @@ const styles = StyleSheet.create({
   container: {
     height: 80,
     backgroundColor: 'coral',
-    paddingVertical: 28,
+    paddingTop: 28,
   },
   header: {
     fontSize: 24,

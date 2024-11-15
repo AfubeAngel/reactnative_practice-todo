@@ -10,7 +10,7 @@ const AddTodo = ({submitHandler}) => {
   };
 
   return (
-         <View>
+         <View style={styles.container}>
          <TextInput
           placeholder="Make the bed.... "
           onChangeText={newTitle}
@@ -26,6 +26,9 @@ const AddTodo = ({submitHandler}) => {
 };
 
 const styles = StyleSheet.create({
+  container: {
+    width: "80%"
+  },
   input: {
     padding: 8,
     marginVertical: 8,  
